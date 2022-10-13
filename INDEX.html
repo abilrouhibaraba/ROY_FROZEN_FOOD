@@ -1,0 +1,79 @@
+<html>
+    <head>
+	    <meta charset="utf=8" />
+	    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />	 
+        <title>WEB PERTAMA</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body>
+		<header>
+		    <h1 class="logo">ROY FROZEN_FOOD</h1>
+			<nav>
+			    <ul>
+				   <li><a href="#">TENTANG KAMI</a></li>
+				   <li><a href="#">ABOUT</a></li>
+				   <li><a href="#" onclick="alert('Silahkan Kontak Nomor Berikut : 087829107623')">KONTAK</a></li>
+			    </ul>
+			</nav>
+			<button class="button" onclick="redirInstagram()">FOLLOW KAMI</button>
+		</header>
+		<div class="container">
+		    <div class="intro">
+			    <p class="title">MENERIMA PESANAN UNTUK ACARA BESAR</p>
+				<p class="description">KAMI ANTAR SAMPAI TUJUAN UNTUK WILAYAH CIREBON</p>
+				<img src="inti/foto/fullmenu.jpg" alt="YANG KAMI JUAL" class="FOTO"/>
+			</div>
+		</div>
+		<div class="parallax">
+		    <div class="tentang">
+			    <p class="title">KAMI MEMBERIKAN DISKON UNTUK PEMBELIAN DIATAS 20PCS</p>
+				<p class="description">SILAHKAN</p>
+				<div>
+					<button class="button" onclick="alert('Silahkan Kontak Nomor Berikut : 087829107623')">HUBUNGI KAMI</button>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card">
+					<div class="card-item">
+						<p class="title">GRATIS ONGKOS KIRIM<br>_WILAYAH CIREBON</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="icons">
+			<a class="*"><i class="fa-brands fa-facebook-f"onclick="redirFacebook()"></i></a>
+			<a class="*"><i class="fa-brands fa-instagram"onclick="redirInstagram()"></i></a>
+			<a class="*"><i class="fa-brands fa-youtube"onclick="redirYoutube()"></i></a>
+			<a class="*"><i class="fa-brands fa-whatsapp"onclick="redirWhatsapp()"></i></a>
+			<a class="*"><i class="fa-solid fa-phone"onclick="redirKontak()"></i></a>
+			<a class="*"><i class="fa-brands fa-google"onclick="redirGoogle()"></i></a>
+		</div>
+		<footer>
+			<p class="abil">&copy; ROYHAN PROPERTY WEBSITE 2022</p>
+		</footer>
+		<script>
+			function redirInstagram() {
+				window.location.href= "https://www.instagram.com/royhan_property_rumah_cirebon/"
+			}
+			function redirWhatsapp() {
+				window.location.href= "https://wa.me/+6287829107623"
+			}
+			function redirKontak() {
+				window.location.href= "https://wa.me/+6287829107623"
+			}
+			function redirFacebook() {
+				window.location.href= "https://www.facebook.com/RoyhanBaraba/"
+			}
+			function redirYoutube() {
+				window.location.href= "https://www.youtube.com/channel/UCXfpHCty4BRKnFxDm2Kvn9Q"
+			}
+			function redirGoogle() {
+				window.location.href= "https://www.bing.com/search?q=royhan+property&cvid=b9983f14304444b5be656476bc893525&aqs=edge.0.0j69i57j0l5j69i60l2.2709j0j4&FORM=ANAB01&DAF0=1&PC=U531"
+			}
+		</script>
+
+    </body>
+</html>

@@ -1,0 +1,196 @@
+*, html, body {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: helvetica;
+	scroll-behavior: smooth;
+}
+nav ul{
+	display: flex;
+	padding: 5px;
+}
+
+h1 {
+	color: green;
+}
+header {
+	background:#9099e7;
+	color: #eaeaea;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.logo {
+	margin-right: auto;
+	margin-left: 5px;
+	cursor: pointer;
+	transition: all ,2s ease 0s;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 50px;
+}
+.logo:hover {
+	color: #f4db7d;
+	transform: rotate{4deg};
+}
+button {
+    width: 300px;
+    margin: 20px 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-transform: var(#0755f1);
+    font-weight: bold;
+    color: #e6e3ec;
+    background: transparent;
+    border: 0.9px solid #eff0e6;
+    position: relative;
+    cursor: pointer;
+    border-radius: 70px;
+    overflow: hidden;
+}
+button:hover {
+    border: #090a0a;
+	color: #208ed8;
+}
+a {
+	color: #eaeaea;
+	text-decoration: none;
+}
+li:hover {
+	color: #f4db7d;
+	transform: rotate{2deg};
+}
+li {
+	list-style-type: none;
+	padding: 10px;
+}
+li a {
+	transition: all ,1s ease 0s;
+}
+li a:hover {
+	color: #1a2238;
+	transform: rotate(3deg);
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 70px;
+}
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	text-align: center;
+}
+.title {
+	font-size: 30px;
+	font-weight: bold;
+}
+.description {
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+.FOTO {
+	width: 100%;
+	max-width: 900px;
+	height: auto;
+	padding: 10px;
+}
+.parallax {
+	background-color: #6599bb;
+	background-size: 50%;
+	height: 100vh;
+}
+.title {
+	color:#e6ba1e;
+}
+.description {
+	color: #f7c511;
+}
+.tentang {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #1a2238;
+	color: eaeaea;
+	padding: 20px;
+	gap: 10px;
+}
+.card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+.card-item {
+	justify-content: center;
+	align-items: center;
+	background: #1a2238;
+	color: #222;
+	padding: 20px;
+}
+.icons {
+    display: flex;
+    position: relative;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	justify-content: center;
+	gap: 9px;
+}
+.icons a {
+    width: 60px;
+    height: 30px;
+    position: relative;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    line-height: 60px;
+    margin: 0 10px;
+    border-radius: 50%;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.7s ease;
+	z-index: 0;
+}
+footer {
+	padding: 15px;
+	text-align: center;
+	background: #0ca1e6;
+	z-index: 9;
+}
+.abil {
+	font-size: 15px;
+	font-weight: bolder;
+}
+.icons a :hover {
+    color: #1a1ef8;
+    transform: translate(0, -30px);
+    box-shadow: 0 20px 8px rgba(51, 45, 45, 0.7);
+	z-index: 9;
+}
+.icons a:nth-child(1):hover {
+    background-color: #1459ee;
+}
+.icons a:nth-child(2):hover {
+    background-color: #a05d97;
+}
+.icons a:nth-child(3):hover {
+    background-color: #ff0000;
+}
+.icons a:nth-child(4):hover {
+    background-color: #00ff00;
+}
+.icons a:nth-child(5):hover {
+    background-color: #66676b;
+}
+.icons a:nth-child(6):hover {
+    background-color: #0f55eb;
+}
